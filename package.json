@@ -1,0 +1,26 @@
+{
+  "name": "heroku-node.js-discord-bot-template",
+  "version": "1.0.0",
+  "description": "Open sourced template to deploy a discord bot 24/7 using node.js build with heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "heroku",
+    "node",
+    "javascript",
+    "discord",
+    "bot",
+    "template"
+  ],
+  "author": "Jonathan Raczkowski",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0"
+  },
+  "engines": {
+    "node": "17.2.0"
+  }
+}
