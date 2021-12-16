@@ -6,10 +6,8 @@
 
 
 
-# Discord Bot Template (Node.js build using Heroku)
-Created a template that will allow you to host a discord bot 24/7 for free using heroku
-
-
+# **Discord Bot Template (Node.js build using Heroku)**
+##
 
 ## Table of contents<img src="https://thumbs.dreamstime.com/b/checklist-icon-transparent-isolated-white-background-your-web-mobile-app-design-133862662.jpg" width="30" alt="accessibility text">
 
@@ -21,12 +19,12 @@ Created a template that will allow you to host a discord bot 24/7 for free using
 * [Deployment](#Deployment)
 * [Conclusion](#Conclusion)
 
-
+##
 
 ## General Info <img src="https://www.pngitem.com/pimgs/m/542-5427182_pencil-emoji-png-transparent-png.png" width="30" alt="accessibility text">
-Created a template that will allow you to host a discord bot 24/7 for free using heroku 
+<p>Created a template that will allow you to host a discord bot 24/7 for free using heroku</p> 
 
-
+##
 
 ## Technologies
 #### Dependencies:
@@ -39,6 +37,7 @@ Created a template that will allow you to host a discord bot 24/7 for free using
 ###### [node (v17.2.0)](https://nodejs.org/en/about/)
 ###### [npm](https://docs.npmjs.com/)
 
+##
 
 # Start Here:
 
@@ -50,16 +49,19 @@ Created a template that will allow you to host a discord bot 24/7 for free using
 ##### 3b.) Head to https://discordapi.com/permissions.html select the permissions you want the bot to have
 ##### 3c.) Paste your APPLICATION ID in the CLIENT ID field to generate an invite link, click it and add the bot to a server
 
-
+##
 
 ## Setup <img src="https://www.pngfind.com/pngs/m/48-486091_tools-icon-png-free-settings-cogwheels-transparent-png.png" width="25" alt="accessibility text">
 
-##### Make sure you have the current version of [Node.js](https://nodejs.org/en/) installed
-##### $ git clone https://github.com/JRIGS/heroku-node.js-discord-bot-template.git # or clone your own fork
-##### $ cd heroku-node.js-discord-bot-template
-##### $ npm install
+##### Make sure you have the current version of [Node.js](https://nodejs.org/en/) installed then open terminal
+```
+$ git clone https://github.com/JRIGS/heroku-node.js-discord-bot-template.git # or clone your own fork
+$ cd heroku-node.js-discord-bot-template
+$ npm install
+```
+##
 
-## Testing
+## Testing <img src="https://www.pinclipart.com/picdir/big/534-5348075_transparent-cpr-clipart-testing-icon-png-download.png" width="25" alt="accessibility text">
 #### To test if the bot is setup correctly follow these steps:
 ##### 1.) Return to your discord development portal and click the "bot" tab, reveal your token and copy it (Do not share this with anyone)
 ##### 2.) In your project access the .env file and edit CLIENT_TOKEN by pasting your token in the placeholder
@@ -69,7 +71,9 @@ Created a template that will allow you to host a discord bot 24/7 for free using
 ##### 5.) If successful the console should log "Bot is online!"
 ##### *Delete your token from .env after testing, especially if you plan to host/publicize your work. Heroku provides Config Vars/Hidden Keys in deployment*
 
-## Deployment
+##
+
+## Deployment <img src="https://cdn.icon-icons.com/icons2/1875/PNG/512/deploy_120090.png" width="30" alt="accessibility text">
 ##### 1.) Head to the [Heroku Website](https://id.heroku.com/login) to Sign up/Login
 ##### 2.) Access your app [dashboard](https://dashboard.heroku.com/apps) -> Navigate to the New tab -> Create new app -> Enter Name -> Create
 ##### 3.) In your new app head to the Deploy tab and then choose your deployment method. I will be using GitHub for this tutorial.
@@ -86,11 +90,15 @@ Created a template that will allow you to host a discord bot 24/7 for free using
 ###### Refer to step 1 in Testing to find it again
 ##### Once fields are filled out, click the add button to confirm
 ##### 7.) To confirm the bot was successfully hosted, click the more button -> view logs
-##### 7a.) If all the steps were followed correctly your log should look something like this: 
-###### 2021-12-16T01:45:11.060451+00:00 heroku[worker.1]: State changed from crashed to starting
-###### 2021-12-16T01:45:13.369881+00:00 heroku[worker.1]: Starting process with command `node index.js`
-###### 2021-12-16T01:45:13.970939+00:00 heroku[worker.1]: State changed from starting to up
-###### 2021-12-16T01:45:14.743531+00:00 app[worker.1]: Bot is online! 
+##### 7a.) If all the steps were followed correctly your log should look something like this:
+```
+2021-12-16T01:45:11.060451+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-12-16T01:45:13.369881+00:00 heroku[worker.1]: Starting process with command `node index.js`
+2021-12-16T01:45:13.970939+00:00 heroku[worker.1]: State changed from starting to up
+2021-12-16T01:45:14.743531+00:00 app[worker.1]: Bot is online! 
+```
+##
 
-## Conclusion
+## Conclusion <img src="https://library.kissclipart.com/20191116/ryw/kissclipart-brain-icon-science-icon-29eedbb4529d8f94.png" width="30" alt="accessibility text">
+######
 ##### Congratulations you have successfully hosted a discord bot for free 24/7, although our bot does not have any functions it is a great place to start for new learners interested in developing discord bots.
