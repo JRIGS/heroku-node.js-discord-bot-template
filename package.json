@@ -2,9 +2,11 @@
   "name": "heroku-node.js-discord-bot-template",
   "version": "1.0.0",
   "description": "Open sourced template to deploy a discord bot 24/7 using node.js build with heroku",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
   },
   "keywords": [
     "heroku",
