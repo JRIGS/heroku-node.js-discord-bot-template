@@ -35,7 +35,7 @@
 #### Engines:
 
 ###### [node (v17.2.0)](https://nodejs.org/en/about/)
-###### [npm](https://docs.npmjs.com/)
+###### [npm (v8.3.0)](https://docs.npmjs.com/)
 
 ##
 
@@ -54,9 +54,9 @@
 ## Setup <img src="https://www.pngfind.com/pngs/m/48-486091_tools-icon-png-free-settings-cogwheels-transparent-png.png" width="25" alt="accessibility text">
 
 ##### Make sure you have the current version of [Node.js](https://nodejs.org/en/) installed then open terminal
-##### Download the ZIP and delete the .git folder to create your own REPO or:
+##### Download the ZIP and delete the .git folder to create your own REPO or Fork the project or in terminal:
 ```
-$ git clone https://github.com/JRIGS/heroku-node.js-discord-bot-template.git # or clone your own fork
+$ git clone https://github.com/JRIGS/heroku-node.js-discord-bot-template.git
 $ cd heroku-node.js-discord-bot-template
 $ npm install
 ```
