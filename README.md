@@ -22,7 +22,7 @@
 ##
 
 ## General Info <img src="https://www.pngitem.com/pimgs/m/542-5427182_pencil-emoji-png-transparent-png.png" width="30" alt="accessibility text">
-<p> I myself had some difficulties learning how to host a discord bot using heroku so I have created a template that will hopefully help others attempting to host a discord bot 24/7 for free using heroku</p> 
+<p> If you have had difficulties learning how to host a discord bot using node.js with Heroku, then I have created a template that will hopefully help you host a discord bot 24/7 for free using heroku(550 free dyno hours each month)</p> 
 
 ##
 
