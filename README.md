@@ -54,6 +54,7 @@
 ## Setup <img src="https://www.pngfind.com/pngs/m/48-486091_tools-icon-png-free-settings-cogwheels-transparent-png.png" width="25" alt="accessibility text">
 
 ##### Make sure you have the current version of [Node.js](https://nodejs.org/en/) installed then open terminal
+Download the ZIP and delete the .git folder to create your own REPO or:
 ```
 $ git clone https://github.com/JRIGS/heroku-node.js-discord-bot-template.git # or clone your own fork
 $ cd heroku-node.js-discord-bot-template
