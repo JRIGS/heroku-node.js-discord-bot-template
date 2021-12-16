@@ -101,4 +101,4 @@ $ npm install
 
 ## Conclusion <img src="https://library.kissclipart.com/20191116/ryw/kissclipart-brain-icon-science-icon-29eedbb4529d8f94.png" width="30" alt="accessibility text">
 ######
-##### Congratulations you have successfully hosted a discord bot for free 24/7, although our bot does not have any functions it is a great place to start for new learners interested in developing discord bots.
+##### Congratulations you have successfully hosted a discord bot 24/7 for free (550 free dyno hours each month), although our bot does not have any functions it is a great place to start for new learners interested in developing discord bots.
