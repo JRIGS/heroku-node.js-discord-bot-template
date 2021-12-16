@@ -19,6 +19,7 @@ Created a template that will allow you to host a discord bot 24/7 for free using
 * [Setup](#setup)
 * [Testing](#Testing)
 * [Deployment](#Deployment)
+* [Conclusion](#Conclusion)
 
 
 
@@ -74,7 +75,21 @@ Created a template that will allow you to host a discord bot 24/7 for free using
 ##### 4.) Connect to Github, Enable Automatic Deploys, Select the correct repository with the bot project on it, Deploy Branch
 ##### 5.) Although the app said it was successfully deployed it is not quite ready yet. By default Heroku will run a npm build when deployed, which will result in the bot crashing after a minute. The solution is in our [Procfile] file, this enables us to switch our build type in deployment.
 ##### 5a.) To make it run 24/7 head to your Resources tab in your Heroku App and edit the npm build switch off, and then enable our new worker "node index.js" on, this will prevent the crash that would regulary occur in the default npm build
-##### 6.) Final step in your Heroku App navigate to Settings -> Config Vars -> Reveal Config Vars
-##### 6a.) You will need to create your own key which heroku will use to access your personalized token from discord.
-###### KEY field = CLIENT_TOKEN
-###### VALUE field = Your own generated bot token from the discord developer portal
+##### 6.) You will need to create your own key which heroku provid to access your personalized token from discord.
+##### Fields should be filled out as follows:
+##### 6.)in your Heroku App navigate to Settings -> Config Vars -> Reveal Config Vars
+##### Fields should be filled out as follows:
+##### KEY = CLIENT_TOKEN
+###### Or whatever you renamed it in the project on client.login()
+##### VALUE = bot token generated from the discord developer portal
+###### Refer to step 1 in Testing to find it again
+##### Once fields are filled out, click the add button to confirm
+##### 7.) To confirm the bot was successfully hosted, click the more button -> view logs
+##### 7a.) If all the steps were followed correctly your log should look something like this: 
+###### 2021-12-16T01:45:11.060451+00:00 heroku[worker.1]: State changed from crashed to starting
+###### 2021-12-16T01:45:13.369881+00:00 heroku[worker.1]: Starting process with command `node index.js`
+###### 2021-12-16T01:45:13.970939+00:00 heroku[worker.1]: State changed from starting to up
+###### 2021-12-16T01:45:14.743531+00:00 app[worker.1]: Bot is online! 
+
+## Conclusion
+##### Congratulations you have successfully hosted a discord bot for free 24/7, although our bot does not have any functions it is a great place to start for new learners interested in developing discord bots.
