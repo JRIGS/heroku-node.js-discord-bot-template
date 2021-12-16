@@ -13,10 +13,10 @@ Created a template that will allow you to host a discord bot 24/7 for free using
 
 ## Table of contents<img src="https://thumbs.dreamstime.com/b/checklist-icon-transparent-isolated-white-background-your-web-mobile-app-design-133862662.jpg" width="30" alt="accessibility text">
 
-* [General Info](#GeneralInfo)
-* [Technologies](#technologies)
-* [Create/Add Bot](#Create/AddBot)
-* [Setup](#setup)
+* [General Info](#General-Info)
+* [Technologies](#Technologies)
+* [Create/Add Bot](#Create/Add-Bot)
+* [Setup](#Setup)
 * [Testing](#Testing)
 * [Deployment](#Deployment)
 * [Conclusion](#Conclusion)
@@ -38,6 +38,7 @@ Created a template that will allow you to host a discord bot 24/7 for free using
 
 ###### [node (v17.2.0)](https://nodejs.org/en/about/)
 ###### [npm](https://docs.npmjs.com/)
+
 
 # Start Here:
 
@@ -73,7 +74,7 @@ Created a template that will allow you to host a discord bot 24/7 for free using
 ##### 2.) Access your app [dashboard](https://dashboard.heroku.com/apps) -> Navigate to the New tab -> Create new app -> Enter Name -> Create
 ##### 3.) In your new app head to the Deploy tab and then choose your deployment method. I will be using GitHub for this tutorial.
 ##### 4.) Connect to Github, Enable Automatic Deploys, Select the correct repository with the bot project on it, Deploy Branch
-##### 5.) Although the app said it was successfully deployed it is not quite ready yet. By default Heroku will run a npm build when deployed, which will result in the bot crashing after a minute. The solution is in our [Procfile] file, this enables us to switch our build type in deployment.
+##### 5.) Although the app said it was successfully deployed it is not quite ready yet. By default Heroku will run a npm build when deployed, which will result in the bot crashing after a minute. The solution is in our [Procfile](https://devcenter.heroku.com/articles/procfile) file, this enables us to switch our build type in deployment.
 ##### 5a.) To make it run 24/7 head to your Resources tab in your Heroku App and edit the npm build switch off, and then enable our new worker "node index.js" on, this will prevent the crash that would regulary occur in the default npm build
 ##### 6.) You will need to create your own key which heroku provid to access your personalized token from discord.
 ##### Fields should be filled out as follows:
