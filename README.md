@@ -90,7 +90,7 @@ $ npm install
 ###### Refer to step 1 in Testing to find it again
 ##### Once fields are filled out, click the add button to confirm
 ##### 7.) To confirm the bot was successfully hosted, click the more button -> view logs
-##### 7a.) If all the steps were followed correctly your log should look something like this:
+##### 7a.) If all the steps were followed correctly your app should redeploy and the log should look something like this:
 ```
 2021-12-16T01:45:11.060451+00:00 heroku[worker.1]: State changed from crashed to starting
 2021-12-16T01:45:13.369881+00:00 heroku[worker.1]: Starting process with command `node index.js`
