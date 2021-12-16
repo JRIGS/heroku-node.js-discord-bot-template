@@ -81,7 +81,7 @@ $ npm install
 ##### 4.) Connect to Github, Enable Automatic Deploys, Select the correct repository with the bot project on it, Deploy Branch
 ##### 5.) Although the app said it was successfully deployed it is not quite ready yet. By default Heroku will run a npm build when deployed, which will result in the bot crashing after a minute. The solution is in our [Procfile](https://devcenter.heroku.com/articles/procfile) file, this enables us to switch our build type in deployment.
 ##### 5a.) To make it run 24/7 head to your Resources tab in your Heroku App and edit the npm build switch off, and then enable our new worker "node index.js" on, this will prevent the crash that would regulary occur in the default npm build
-##### 6.) You will need to create your own key which heroku provid to access your personalized token from discord.
+##### 6.) You will need to create your own key which heroku provides to access your personalized token from discord.
 ##### Fields should be filled out as follows:
 ##### 6.)in your Heroku App navigate to Settings -> Config Vars -> Reveal Config Vars
 ##### Fields should be filled out as follows:
