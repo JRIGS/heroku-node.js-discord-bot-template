@@ -11,9 +11,9 @@
 
 ## Table of contents<img src="https://thumbs.dreamstime.com/b/checklist-icon-transparent-isolated-white-background-your-web-mobile-app-design-133862662.jpg" width="30" alt="accessibility text">
 
-* [General Info](#General-Info)
+* [General Info](#GeneralInfo)
 * [Technologies](#Technologies)
-* [Create/Add Bot](#Create/Add-Bot)
+* [Create/Add Bot](#Create/AddBot)
 * [Setup](#Setup)
 * [Testing](#Testing)
 * [Deployment](#Deployment)
