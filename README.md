@@ -11,13 +11,13 @@
 
 ## Table of contents<img src="https://thumbs.dreamstime.com/b/checklist-icon-transparent-isolated-white-background-your-web-mobile-app-design-133862662.jpg" width="30" alt="accessibility text">
 
-* [General Info](#General-Info)
-* [Technologies](#Technologies)
-* [Create/Add Bot](#Create/Add-Bot)
-* [Setup](#Setup)
-* [Testing](#Testing)
-* [Deployment](#Deployment)
-* [Conclusion](#Conclusion)
+* [General Info](#general-Info)
+* [Technologies](#technologies)
+* [Create/Add Bot](#create/Add-Bot)
+* [Setup](#setup)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Conclusion](#conclusion)
 
 ##
 
